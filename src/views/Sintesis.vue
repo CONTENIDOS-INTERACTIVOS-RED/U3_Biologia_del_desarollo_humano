@@ -1,8 +1,8 @@
 <template lang="pug">
 .curso-main-container.creditos-vista
-  BannerInterno(:titulo="'Unidad 2. Desarrollo físico, cognitivo y emocional en las etapas de la infancia y adolescencia'" :subTitulo="'SÍNTESIS'")
+  BannerInterno(:titulo="'Unidad 3. Desarrollo integral y contextos de aprendizaje en la adultez y la vejez'" :subTitulo="'SÍNTESIS'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La Unidad 2 de Biología del Desarrollo Humano profundiza en los cambios físicos, cognitivos y emocionales que caracterizan las etapas de la infancia y adolescencia, así como en los factores que influyen en estos procesos. A lo largo de la unidad, se abordan hitos clave del desarrollo y se exploran estrategias de intervención educativa y psicológica para promover un crecimiento saludable. Este enfoque permite a los estudiantes entender las bases del desarrollo humano y aplicar conceptos prácticos para apoyar el bienestar de niños y adolescentes en diferentes contextos.
+    p.mb-4.mb-md-5 La Unidad 3: Desarrollo integral y contextos de aprendizaje en la adultez y la vejez, aborda los cambios físicos, cognitivos, socioemocionales y de salud que ocurren en las etapas de adultez y vejez. Esta unidad proporciona los fundamentos necesarios para comprender cómo estas etapas impactan en la calidad de vida y el desarrollo humano. A través de un enfoque integral, se exploran estrategias de aprendizaje para promover un envejecimiento exitoso y hábitos saludables, asegurando que los estudiantes adquieran una visión amplia y práctica de estas fases del ciclo vital. Este conocimiento es esencial para su aplicación en contextos educativos, sociales y personales.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     

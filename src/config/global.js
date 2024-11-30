@@ -30,21 +30,26 @@ export default {
         icono: 'far fa-file-alt',
         numero: '1',
         titulo:
-          'Desarrollo físico, cognitivo y emocional en las etapas de la infancia y adolescencia',
+          'Desarrollo cognitivo y socioemocional en la adultez temprana, media y tardía',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo:
-              'Etapas del desarrollo infantil: motor, cognitivo, social y emocional',
+            titulo: 'Autores sobre las etapas y el desarrollo de la adultez',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Crecimiento y desarrollo en la niñez',
+            titulo: 'La adultez temprana y media',
             hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'El adulto de edad intermedia y tardía ',
+            hash: 't_1_3',
           },
         ],
       },
@@ -59,27 +64,30 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'La intercomunicación de las neuronas: sinapsis ',
+            titulo: 'Mecanismos del envejecimiento',
             hash: 't_2_1',
           },
+        ],
+      },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo:
+          'Salud mental en la adultez y vejez: factores de riesgo y protección',
+        desarrolloContenidos: true,
+        subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Definición y etapas de la adolescencia',
-            hash: 't_2_2',
+            numero: '3.1',
+            titulo: 'Factores de riesgo y alertas',
+            hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo:
-              'Trastornos del desarrollo: factores de riesgo y estrategias de intervención',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: '¿Es clave la estimulación temprana?',
-            hash: 't_2_4',
+            numero: '3.2',
+            titulo: 'Medidas de protección y prevención ',
+            hash: 't_3_2',
           },
         ],
       },
@@ -109,7 +117,7 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/Biologia_desarrollo_humano_U2.zip',
+        download: 'downloads/Biologia del desarrollo humano_U3.zip',
       },
       {
         icono: 'fas fa-download',
@@ -126,123 +134,120 @@ export default {
   referencias: [
     {
       referencia:
-        'Apaza, E. A., Huamán, J. V., Ramírez, G. M., Segovia, D. S. y Suarez, M. A. (2017). Estudio de casos de niños con Trastornos del Neurodesarrollo: Trastorno del espectro autista, discapacidad intelectual y retraso global del desarrollo',
-      link:
-        'https://www.researchgate.net/profile/Aime-Quispe/publication/341498580_ESTUDIO_DE_CASOS_DE_NINOS_CON_TRASTORNOS_DEL_NEURODESARROLLO_Trastorno_del_Espectro_Autista_Discapacidad_Intelectual_y_Retraso_Global_del_Desarrollo/links/5ec485f592851c11a87781eb/ESTUDIO-DE-CASOS-DE-NINOS-CON-TRASTORNOS-DEL-NEURODESARROLLO-Trastorno-del-Espectro-Autista-Discapacidad-Intelectual-y-Retraso-Global-del-Desarrollo.pdf',
+        'Arévalo Herrera, D. M. (2014). Estimulación múltiple en adultos mayores: estrategias. Universidad Iberoamericana Puebla.',
+      link: '',
     },
     {
       referencia:
-        'MEECE, J. (2000). Desarrollo del niño y del adolescente. Capítulo Teoría del desarrollo cognoscitivo de Piaget. Compendio para educadores',
-      link:
-        'https://www.guao.org/sites/default/files/portafolio%20docente/Teor%C3%ADa%20del%20desarrollo%20de%20Piaget.pdf',
+        'García Ramírez, J. C. (2012). Envejecimiento mundial y desafío regional: nuevos paradigmas para la investigación, la salud pública y los derechos humanos. Plaza y Valdés (México).',
+      link: '',
     },
     {
       referencia:
-        'ORTEGA, C. FRANCO, J. (2010). Neurofisiología del aprendizaje y la memoria. Plasticidad Neuronal. Archivos de Medicina Vol. 6 No. 1:2',
-      link:
-        'https://www.archivosdemedicina.com/medicina-de-familia/neurofisiologa-del-aprendizaje-y-la-memoria-plasticidad-neuronal.pdf',
+        'Izquierdo, A. (2007). Psicología del desarrollo de la edad adulta: teorías y contextos. International Journal of Developmental and Educational Psychology, 1(2), 67-86.',
+      link: '',
     },
     {
       referencia:
-        'Sierra, B. LEÓN, P. (2019). Plasticidad cerebral, una realidad neuronal. Rev Ciencias Médicas. 2019;23(4):599-609',
-      link: 'https://www.medigraphic.com/pdfs/pinar/rcm-2019/rcm194o.pdf',
+        'Torres González, M. Á. & Perea Unceta, L. (2010). Vivir mejor la jubilación: salud, dinero, amor, sexo y ocio a partir de los 60…, prepárate desde los 40. Marcial Pons Ediciones Jurídicas y Sociales.',
+      link: '',
+    },
+    {
+      referencia:
+        'Zafon Llopis, C. (2010). Los nietos de Adán y Eva: ¿por qué la naturaleza nos hace envejecer?. Marge Books.',
+      link: '',
+    },
+    {
+      referencia:
+        'Zijdeman et al. (2015); Riley (2005). Data source: UN WPP (2022); HMD (2023).',
+      link: 'https://ourworldindata.org/life-expectancy',
     },
   ],
   glosario: [
     {
-      termino: 'Acomodación',
+      termino: 'Adultez',
       significado:
-        'Concepto fundamental en la teoría del desarrollo cognitivo de Jean Piaget, que se refiere al proceso mediante el cual un individuo ajusta sus esquemas mentales para integrar nueva información o experiencias',
+        'Etapa en el desarrollo humano que sigue a la juventud y precede a la vejez. Se caracteriza por la madurez física, psicológica y social del individuo, y se considera que abarca aproximadamente desde los 21 hasta los 60 años, aunque algunas definiciones amplían el rango hasta los 65 años o más',
     },
     {
-      termino: 'Adolescencia',
+      termino: 'Continuidad (desarrollo)',
       significado:
-        'Periodo del desarrollo humano que se sitúa entre la niñez y la adultez, caracterizado por intensos cambios biológicos, psicológicos y sociales. Inicia con la pubertad, que generalmente comienza entre los 10 y 13 años, y se extiende hasta los 19 o 21 años, dependiendo de diversas fuentes y contextos culturales',
+        'Término que indica que la vejez es un proceso que no tiene retorno y que no se detiene una vez que comienza',
     },
     {
-      termino: 'Asimilación',
+      termino: 'Desarrollo adulto positivo',
       significado:
-        'Se refiere al proceso mediante el cual un organismo o individuo integra nueva información o elementos en estructuras preexistentes. En el ámbito psicológico, la asimilación fue introducida por Jean Piaget como parte de su teoría del desarrollo cognitivo. Este proceso implica la incorporación de nueva información a esquemas mentales ya existentes sin modificar estos esquemas',
+        'Es un enfoque que busca resaltar y potenciar las capacidades y recursos de los adultos, en lugar de centrarse únicamente en los desafíos y limitaciones que pueden enfrentar. Este concepto se ha desarrollado en el contexto de la psicología positiva y se ha aplicado especialmente a la adultez emergente, una etapa que abarca a jóvenes adultos generalmente entre los 18 y 29 años',
     },
     {
-      termino: 'Desarrollo Cognitivo',
+      termino: 'Envejecimiento biológico',
       significado:
-        'Se refiere a la progresión de las capacidades intelectuales, que incluyen la percepción, el razonamiento, la memoria, el lenguaje y la resolución de problemas. Este proceso es esencial para el aprendizaje y se basa en la interacción entre el individuo y su entorno. A medida que los niños crecen, desarrollan habilidades tanto motoras como cognitivas que les permiten interactuar con su mundo de manera más efectiva',
+        'Proceso complejo y multifacético que se refiere a los cambios morfológicos, fisiológicos y funcionales que ocurren en los organismos como resultado del paso del tiempo. Este fenómeno afecta a todos los seres vivos y se caracteriza por una serie de transformaciones que, aunque universales, varían en su manifestación entre individuos y especies',
     },
     {
-      termino: 'Desarrollo Emocional',
+      termino: 'Estabilidad Emocional',
       significado:
-        'Asociado con la capacidad de un niño para reconocer y manejar sus emociones y responder adecuadamente a las emociones de los demás. Es un proceso gradual e integrativo, comenzando desde el nacimiento y continuando a lo largo de la infancia y la adolescencia. A través de interacciones significativas con sus cuidadores y pares, los niños aprenden a identificar sus sentimientos y a desarrollar habilidades como la empatía y la regulación emocional',
+        'Asociada a la gestión adecuada de las decisiones, es decir más responsables, el desarrollo de relaciones interpersonales más sólidas y las respuestas emocionales y comportamentales coherentes con las condiciones del contexto',
     },
     {
-      termino: 'Desarrollo Físico',
+      termino: 'Fecundidad',
       significado:
-        'Se manifiesta a través de cambios significativos en las habilidades motoras, la fuerza, la resistencia y la salud general. Este desarrollo se puede dividir en diferentes etapas, según la edad y las necesidades específicas',
+        'Se refiere a la capacidad efectiva de una mujer, pareja o población para producir nacimientos',
     },
     {
-      termino: 'Determinismo biológico',
+      termino: 'Inteligencia cristalizada',
       significado:
-        'Pensamiento que sostiene que el comportamiento humano y los fenómenos sociales son el resultado directo de factores biológicos, principalmente genéticos. Esta perspectiva se ha utilizado para explicar diversas desigualdades sociales, como la pobreza, la violencia y las diferencias de género, atribuyendo estas condiciones a características innatas de los individuos o grupos',
+        "Concepto psicológico que se refiere al conjunto de conocimientos, habilidades y experiencias que una persona adquiere a lo largo de su vida y que ha 'cristalizado' en su memoria. Se basa en el aprendizaje y la experiencia, y se considera fundamental para afrontar las etapas de crecimiento del adulto hasta la vejez",
     },
     {
-      termino: 'Estadios',
+      termino: 'Madurez Física e Intelectual',
       significado:
-        'Etapas son universales y se caracterizan por cambios cualitativos en la forma de pensar y entender el mundo',
+        'Pleno desarrollo físico e intelectual en la edad adulta. Esto incluye la finalización del crecimiento muscular y óseo, así como el desarrollo de capacidades mentales y emocionales',
     },
     {
-      termino: 'Infancia',
+      termino: 'Progresividad (desarrollo)',
       significado:
-        'Abarca desde el nacimiento hasta el inicio de la pubertad, generalmente considerado alrededor de los 11 a 14 años',
+        'Hace referencia a que el envejecimiento no tiene pausa y es el resultado de efectos acumulativos. La universalidad, porque incide en todas las poblaciones',
     },
     {
-      termino: 'Inteligencia',
+      termino: 'Psicoanálisis',
       significado:
-        'Capacidad de comprender, razonar, resolver problemas y adaptarse a nuevas situaciones. Se ha definido de diversas maneras a lo largo de la historia, abarcando desde habilidades cognitivas hasta aspectos emocionales y creativos',
+        'Teoría y práctica terapéutica que se centra en la exploración del inconsciente, desarrollada por el neurólogo austriaco Sigmund Freud a finales del siglo XIX. Esta corriente ha influido notablemente en la psicología y ha dado lugar a diversas escuelas de pensamiento en el ámbito de la salud mental',
     },
     {
-      termino: 'Intervención Educativa',
+      termino: 'Radicales libres',
       significado:
-        'Conjunto de acciones planificadas y específicas diseñadas para abordar las necesidades educativas de los estudiantes. Su objetivo es facilitar el aprendizaje y el desarrollo integral del alumnado, especialmente en situaciones donde se identifican dificultades académicas, emocionales o conductuales',
+        'Se forman en las células a través de la ruptura homolítica de enlaces covalentes en reacciones químicas. También pueden generarse por la exposición a radiaciones o contaminantes ambientales. Se clasifican según el tipo de átomo que contiene el electrón impar: derivadas del oxígeno (ROS), como el radical hidroxilo (·OH) y el superóxido (O2·-). Derivadas del nitrógeno, como el óxido nítrico (NO·) y el dióxido de nitrógeno (NO2·)',
     },
     {
-      termino: 'Intervención Psicológica',
+      termino: 'Salud mental',
       significado:
-        'Aplicación de principios y técnicas psicológicas por parte de profesionales acreditados, con el objetivo de ayudar a individuos o grupos a comprender y superar problemas emocionales, conductuales o psicosociales. Esta práctica se basa en una evaluación exhaustiva de las dificultades del paciente y busca mejorar su bienestar general y sus relaciones interpersonales',
+        'Es una dimensión del estado de bienestar en el que el individuo es consciente de sus capacidades y puede afrontar las tensiones de la vida, trabajar de manera productiva y contribuir a su comunidad. Se trata solo de la ausencia de trastornos mentales y un equilibrio emocional y psicológico que permite a las personas funcionar en su vida diaria',
     },
     {
-      termino: 'Neurogénesis',
+      termino: 'Senescencia celular',
       significado:
-        'Proceso mediante el cual se generan nuevas neuronas a partir de células madre y progenitoras. Este fenómeno es crucial durante el desarrollo embrionario, pero investigaciones recientes han demostrado que también ocurre en el cerebro adulto, aunque en menor medida',
+        'Detención irreversible del ciclo celular en respuesta a diversos tipos de estrés, como el daño genético o el acortamiento de los telómeros. Este fenómeno tiene implicaciones significativas en el envejecimiento, la generación de tumores y la reparación de tejidos',
     },
     {
-      termino: 'Neuronas',
+      termino: 'Telómeros',
       significado:
-        'Células altamente especializadas que constituyen la unidad funcional del sistema nervioso. Su principal función es recibir, procesar y transmitir información mediante señales eléctricas y químicas',
+        'Son estructuras ubicadas en los extremos de los cromosomas, esenciales para mantener la estabilidad y la integridad del ADN en las células eucariotas',
     },
     {
-      termino: 'Plasticidad Neuronal',
+      termino: 'Tercera edad',
       significado:
-        'También conocida como neuroplasticidad, se refiere a la capacidad del sistema nervioso para cambiar su estructura y funcionamiento a lo largo de la vida. Este fenómeno es fundamental para el aprendizaje, la memoria y la recuperación de lesiones, permitiendo que las neuronas forman nuevas conexiones y se adapten a nuevas experiencias',
+        'Es sinónimo de vejez, ancianidad o senectud. Se refiere a las últimas décadas de la vida de una persona. Esta etapa está marcada por un declive en diversas áreas, incluyendo lo físico, cognitivo, emocional y social. Generalmente se considera que la tercera edad comienza alrededor de los 60 años',
     },
     {
-      termino: 'Poda Sináptica',
+      termino: 'Variabilidad (desarrollo)',
       significado:
-        'Es un proceso biológico que ocurre en el cerebro, durante las etapas de desarrollo infantil y adolescente. Implica la eliminación de conexiones sinápticas que se consideran innecesarias o débiles, permitiendo así que las conexiones más fuertes se fortalezcan y optimicen la comunicación neuronal',
+        'En la vejez, hace referencia a que no todos los individuos de una misma especie envejecen al mismo ritmo, lo que implica una influencia de factores genéticos y ambientales',
     },
     {
-      termino: 'Psicología evolutiva',
+      termino: 'Vejez',
       significado:
-        'Rama de la psicología que estudia el desarrollo humano, desde el nacimiento hasta la vejez. Su objetivo es comprender cómo los cambios psicológicos afectan a las personas en diferentes etapas de su vida y cómo estos cambios son influenciados por factores biológicos y ambientales',
-    },
-    {
-      termino: 'Sinapsis',
-      significado:
-        'Proceso en la comunicación neuronal, que permite la transmisión de impulsos nerviosos entre neuronas o entre una neurona y otra célula, como una célula muscular o glandular',
-    },
-    {
-      termino: 'Teoría cognitiva constructivista',
-      significado:
-        'Enfoque psicológico y educativo que enfatiza cómo los individuos construyen su conocimiento a través de la interacción con su entorno y la integración de nuevas experiencias con conocimientos previos. Esta teoría se basa en la premisa de que el aprendizaje es un proceso activo y no pasivo',
+        'Es sinónimo de tercera edad, ancianidad o senectud. Se refiere a las últimas décadas de la vida de una persona. Esta etapa está marcada por un declive en diversas áreas, incluyendo lo físico, cognitivo, emocional y social. Generalmente se considera que la tercera edad comienza alrededor de los 60 años',
     },
   ],
   complementario: [
