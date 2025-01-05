@@ -17,6 +17,11 @@
           .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
             img(src='@/assets/curso/unidad/img-21.png', alt='Texto que describa la imagen')
 
+        #t_2_1.titulo-segundo
+          div.d-flex
+            span.me-3 2.1  
+            h2 Características del envejecimiento
+
         p.mb-4 Dentro de las características del envejecimiento, se encuentran:
 
         .row.mb-4
@@ -25,7 +30,7 @@
               img.mb-4(src='@/assets/curso/unidad/img-22.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.text-bold.text-center Continuidad
-                p.text-small.px-4.text-center.pb-2 Señala que es un proceso que no tiene retorno y que no se detiene una vez que comienza
+                p.text-small.px-4.text-center.pb-2 Señala que es un proceso que no tiene retorno y que no se detiene una vez que comienza.
           .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-up")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-23.png', alt='Texto que describa la imagen')
@@ -37,7 +42,7 @@
               img.mb-4(src='@/assets/curso/unidad/img-24.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.text-bold.text-center Universalidad
-                p.text-small.px-4.text-center.pb-2 Incide en todas las poblaciones, aunque la intensidad y el ritmo pueden diferir significativamente
+                p.text-small.px-4.text-center.pb-2 Incide en todas las poblaciones, aunque la intensidad y el ritmo pueden diferir significativamente.
           .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-left")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-25.png', alt='Texto que describa la imagen')
@@ -85,7 +90,7 @@
                   div.custom-image-card.rounded-8px
                     img.mb-4(src='@/assets/curso/unidad/img-47.png', alt='Texto que describa la imagen')
                     div.mb-0
-                      p.text-bold.text-center.mb-0 Alteración del ritmo de <br>sueño-vigilia
+                      p.text-bold.text-center.mb-4 Alteración del ritmo de <br>sueño-vigilia
 
     p.mb-4 De acuerdo con Our World in Data (https://ourworldindata.org/life-expectancy), en el año 1900, la esperanza de vida media de un recién nacido era de 32 años. En el 2021, esta cifra se había aumentado hasta alcanzar los 71 años. Un término clave en este apartado, es la longevidad, que corresponde a la probabilidad de muerte a una edad determinada, la brecha de sexo en la esperanza de vida, la desigualdad en la expectativa de vida, en los diferentes países.
 
@@ -122,9 +127,9 @@
 
     p.mb-5 Estudios recientes desarrollan un término denominado <strong>“Zonas Azules”</strong>, que corresponden a puntos del planeta Tierra que tienen cualidades especiales, en donde los niveles de longevidad son superiores al del resto del planeta. 
 
-    #t_2_1.titulo-segundo
+    #t_2_2.titulo-segundo
       div.d-flex
-        span.me-3 2.1
+        span.me-3 2.2
         h2 Mecanismos del envejecimiento 
     .row.mb-5
       .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
@@ -137,17 +142,20 @@
         img(src='@/assets/curso/unidad/img-32.png', alt='Texto que describa la imagen')  
 
     .bg-full-width.border-top-9-azul
-      .px-4.px-md-5.pt-md-5.pb-0
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
-            h2 Material complementario
-            p.text-small Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-            a.d-flex.my-4(href="https://youtu.be/75p4Zm-AqNs?si=_tXq2IUo8m4cTBqf" target="_blank")
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/115616") Freire C. (2016). Calidad de vida y bienestar en la vejez. Ediciones Pirámide.
+            p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              span.text-small Zonas azules 
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/0roSFFDSZaQ") Escuela de salud integrativa. (2022). ¿Cuáles son los FACTORES biológicos del ENVEJECIMIENTO? [Vídeo]
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
 
 </template>
 

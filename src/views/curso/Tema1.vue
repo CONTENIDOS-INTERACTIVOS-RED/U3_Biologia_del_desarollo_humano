@@ -39,7 +39,7 @@
     
     .row.mb-4
       .col-12.col-xl-8(data-aos="fade-right")
-        p.mb-4 El desarrollo humano es un proceso complejo y multidimensional que ha sido explorado desde diversas perspectivas psicológicas. A través del PDF Autores , lo invitamos a adentrarse en las teorías de destacados autores que han marcado hitos en la comprensión de este fenómeno. Desde los fundamentos del Psicoanálisis de Sigmund Freud, que destaca las fuerzas inconscientes y las etapas psicosexuales, hasta las aportaciones psicosociales de Erik Erikson, que integran aspectos culturales y sociales en el desarrollo de la personalidad. Además, se analizan las transiciones de la vida adulta según Daniel J. Levinson y las etapas del desarrollo cognitivo propuestas por Warner Schaie, enfocadas en el uso del intelecto en contextos sociales. Este contenido ofrece una visión integral y enriquecedora que será clave para entender las dinámicas del crecimiento humano desde la niñez hasta la vejez.
+        p.mb-4 El desarrollo humano es un proceso complejo y multidimensional que ha sido explorado desde diversas perspectivas psicológicas. A través del PDF Autores, lo invitamos a adentrarse en las teorías de destacados autores que han marcado hitos en la comprensión de este fenómeno. Desde los fundamentos del Psicoanálisis de Sigmund Freud, que destaca las fuerzas inconscientes y las etapas psicosexuales, hasta las aportaciones psicosociales de Erik Erikson, que integran aspectos culturales y sociales en el desarrollo de la personalidad. Además, se analizan las transiciones de la vida adulta según Daniel J. Levinson y las etapas del desarrollo cognitivo propuestas por Warner Schaie, enfocadas en el uso del intelecto en contextos sociales. Este contenido ofrece una visión integral y enriquecedora que será clave para entender las dinámicas del crecimiento humano desde la niñez hasta la vejez.
         a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer.w-fit.pe-xl-5(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Autores.pdf')" target="_blank")
           img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
           p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Autores
@@ -61,9 +61,9 @@
             img(src='@/assets/curso/unidad/img-9.png', alt='Texto que describa la imagen')
           .col-12.col-xl-6(data-aos="fade-left")
             TarjetaAudio.color-primario.bg-white.mb-3(
-                texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
+                texto="Adultez temprana y media."
                 tiempo
-                :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('../../assets/componentes/audios/Podcast_Biología del desarrollo humano_UnidadIII.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
             p.mb-4 Esta etapa también presenta cifras de mortalidad que, según la Organización Mundial de la Salud (OMS, 2024), están asociadas principalmente a la violencia, las situaciones de carácter médico y las lesiones o traumatismos, así como otras causas multicausales, tal y como se plantea en la siguiente imagen:
@@ -115,7 +115,7 @@
       .col-4.d-none.d-xl-block(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-16.png', alt='Texto que describa la imagen')
 
-
+    p.mb-4 Pero esto no es igual para todos los adultos de esta etapa, pues también son conocidos los fenómenos de “crisis de la mediana edad”, donde se presentan episodios asociados a la ansiedad, depresión y estrés, debido a la incertidumbre, los miedos adquiridos por experiencias sobre la enfermedad y la muerte, el avance en el cumplimiento de los propósitos de vida, las expectativas personales, entre otros.
     .row.mb-4
       .col-4.d-none.d-xl-block(data-aos="fade-right")
         img(src='@/assets/curso/unidad/img-17.png', alt='Texto que describa la imagen')
@@ -137,38 +137,35 @@
           img.h-100(src='@/assets/curso/unidad/img-18.png', alt='Texto que describa la imagen')
     p.mb-4 Sobre el desarrollo de la edad adulta, Peck (1959, 1968) plantea los <strong>retos o conflictos especiales de la vida adulta</strong>, los cuales relata por etapas, de la siguiente manera: 
 
-    .row.mb-4
+    .row.mb-5
       .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-right")
         img(src='@/assets/curso/unidad/img-19.png', alt='Texto que describa la imagen')
       .col-12.col-lg-7(data-aos="fade-left")
         AcordionA(tipo="b")
           .div(titulo="Aprecio de la sabiduría ")
-            p Cambios en la fuerza de las sinapsis entre neuronas, esenciales para el aprendizaje y la memoria.
-          .div(titulo="Aprecio de la sabiduría ")
+            p Aprecio de la sabiduría frente al aprecio de la fuerza física. A medida que empiezan a deteriorarse la resistencia y la salud, las personas deben canalizar gran parte de su energía de las actividades físicas, hacia las mentales.
+          .div(titulo="Socialización frente a la sexualización")
             p Socialización frente a la sexualización en las relaciones humanas. Los cambios físicos pueden obligar a redefinir las relaciones con miembros de ambos sexos, a dar prioridad a la camaradería sobre la intimidad sexual o la competitividad.
-          .div(titulo="Aprecio de la sabiduría ")
+          .div(titulo="Flexibilidad emotiva ")
             p Flexibilidad emotiva frente a empobrecimiento emotivo. La flexibilidad emotiva es el origen de varios ajustes que se hacen en la madurez, cuando las familias se separan, cuando los amigos se marchan y los antiguos intereses dejan de ser el centro de la vida.
           .div(titulo="Flexibilidad frente a rigidez mental")
             p Flexibilidad frente a rigidez mental. El individuo debe luchar contra la tendencia a obstinarse en sus hábitos o a desconfiar demasiado de las nuevas ideas. La rigidez mental es la tendencia a dejarse dominar por las experiencias y los juicios anteriores a decidir.
 
     .bg-full-width.border-top-9-azul
-      .px-4.px-md-5.pt-md-5.pb-0
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
-            h2 Material complementario
-            p.text-small Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-            a.d-flex.my-4(href="https://youtu.be/OVDr31_rWqw?si=UDVq3nZgA9Ejs2pu" target="_blank")
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              span.text-small Las 5 etapas del desarrollo psicosexual de Freud 
-            a.d-flex.my-4(href="https://youtu.be/C8TBqpu4T2I?si=3d_clPbSoSlRyQ93" target="_blank")
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              span.text-small 8 Etapas del Desarrollo de Erik Erikson 
-            a.d-flex.my-4(href="https://youtu.be/Ah1fPTbQhlc?si=mXVbPg7IlPxVWhdT" target="_blank")
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              span.text-small Desarrollo durante la adultez: temprana, intermedia y tardía. 
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/104765") Alcázar, H. (2010). La vejez y su tratamiento. Instituto Politécnico Nacional.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/Ah1fPTbQhlc") Universidad Continental (2021). Desarrollo durante la adultez [Vídeo]
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
 
 </template>
 

@@ -40,7 +40,7 @@
       .col-12.col-xl-8.d-flex.align-items-center.p-4.flex-column(data-aos="fade-left")
         .bg-amarillo.p-4.mb-4
           p.mb-0 En gran parte de las culturas, los adultos mayores son sinónimo de experiencia, respeto, tradiciones e identidad; son soporte de conocimiento y de sabiduría que, como legado, se convierten en referente para los más jóvenes. Sin embargo, en naciones que han reducido su capital cultural o identidad, los adultos dejan de tener este rol protagónico y empiezan a darse situaciones contrarias como el abandono, la soledad, el maltrato, incluso, la vulnerabilidad. Sumado a lo anterior, un adulto mayor desprotegido, es más propenso de presentar afecciones de salud mental, dolores crónicos, fragilidad en sus funciones básicas, depresión, ansiedad, entre otros.  
-        p.mb-0 Eso implica que el adulto mayor pierde se autonomía y ante eso, viene en crecimiento una crisis de atención integral sobre el adulto mayor. Actualmente, se ve en aumento la atención por parte de centros especializados de cuidados gerontológicos, la demanda de cuidadores especializados o la atención por parte de algún miembro de la familia (con o sin experiencia en cuidado y atención de personas). Sumado a lo anterior, la crisis se agudiza cuando se monetiza este tipo de atenciones especiales, porque ante la alta demanda y la baja disponibilidad, el acceso a estos cuidados, resulta siendo un lujo.
+        p.mb-0 Eso implica que el adulto mayor pierde su autonomía y ante eso, viene en crecimiento una crisis de atención integral sobre el adulto mayor. Actualmente, se ve en aumento la atención por parte de centros especializados de cuidados gerontológicos, la demanda de cuidadores especializados o la atención por parte de algún miembro de la familia (con o sin experiencia en cuidado y atención de personas). Sumado a lo anterior, la crisis se agudiza cuando se monetiza este tipo de atenciones especiales, porque ante la alta demanda y la baja disponibilidad, el acceso a estos cuidados, resulta siendo un lujo.
 
     #t_3_1.titulo-segundo
       div.d-flex
@@ -77,7 +77,7 @@
           .d-flex.flex-column
             p.pe-xl-3.mb-0(data-aos="fade-up") Según datos de la Organización Mundial de la Salud, el 14 % de los adultos de 60 años o más viven con un trastorno mental. Cerca del 27 % de las muertes por suicidio se producen en personas de 60 años o más.
 
-    p.mb-4 <strong>Figura 3.</strong> Algunos factores de riesgo sobre la salud mental del adulto mayor, generando principalmente depresión y ansiedad
+    p.mb-4 <strong>Figura 3.</strong> Algunos factores de riesgo sobre la salud mental del adulto mayor, generando principalmente depresión y ansiedad.
 
     img.mb-4(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
 
@@ -92,6 +92,7 @@
       .col-12.col-xl-8.ps-4(data-aos="fade-left")
         p.mb-4 Lo más importante en la etapa de la vejez, es recorrerla en condiciones saludables, tanto en lo físico, como en lo social y emocional, de tal manera que el bienestar y la calidad de vida de las personas adultas mayores, puedan mitigar el deterioro de sus facultades y la pérdida de su autonomía.
         .bg-amarillo.p-4.mb-4
+          p.mb-4 Las estrategias, para prevenir y promocionar la salud mental, vinculan distintos actores:
           div.d-flex
             img.mt-2.me-2.d-flex.align-self-base.h-100(style="width: 15px" src='@/assets/curso/arrow.png', alt='Texto que describa la imagen')
             p.mb-0 Su entorno nuclear, puede  estar conformado por su pareja, familia, amigos o vecinos. 
@@ -109,26 +110,26 @@
           .div(titulo="Necesidades básicas de atención ciudadana")
             div.d-flex
               img.mt-2.me-2.d-flex.align-self-base.h-100(style="width: 15px" src='@/assets/curso/arrow.png', alt='Texto que describa la imagen')
-              p.mb-0 Las intervenciones esenciales incluyen políticas y leyes contra la discriminación, intervenciones educativas y actividades intergeneracionales
+              p.mb-0 Las intervenciones esenciales incluyen políticas y leyes contra la discriminación, intervenciones educativas y actividades intergeneracionales.
             div.d-flex
               img.mt-2.me-2.d-flex.align-self-base.h-100(style="width: 15px" src='@/assets/curso/arrow.png', alt='Texto que describa la imagen')
-              p.mb-0 Atención especial a los adultos mayores en condición de inseguridad financiera y la desigualdad de ingresos
+              p.mb-0 Atención especial a los adultos mayores en condición de inseguridad financiera y la desigualdad de ingresos.
             div.d-flex
               img.mt-2.me-2.d-flex.align-self-base.h-100(style="width: 15px" src='@/assets/curso/arrow.png', alt='Texto que describa la imagen')
-              p.mb-0 Programas para garantizar viviendas, edificios públicos y transportes seguros y accesibles
+              p.mb-0 Programas para garantizar viviendas, edificios públicos y transportes seguros y accesibles.
             div.d-flex
               img.mt-2.me-2.d-flex.align-self-base.h-100(style="width: 15px" src='@/assets/curso/arrow.png', alt='Texto que describa la imagen')
-              p.mb-0 Apoyo social a los adultos mayores y a sus cuidadores en caso de no contar con lo básico de atención
+              p.mb-0 Apoyo social a los adultos mayores y a sus cuidadores en caso de no contar con lo básico de atención.
             div.d-flex
               img.mt-2.me-2.d-flex.align-self-base.h-100(style="width: 15px" src='@/assets/curso/arrow.png', alt='Texto que describa la imagen')
               p.mb-0 Atención inmediata en casos identificados de psicosis, depresión, aislamiento y maltrato.
           .div(titulo="Necesidades relacionadas con la salud")
             div.d-flex
               img.mt-2.me-2.d-flex.align-self-base.h-100(style="width: 15px" src='@/assets/curso/arrow.png', alt='Texto que describa la imagen')
-              p.mb-0 Apoyo a los comportamientos saludables: hábitos alimentarios y saludables, actividad física y ocupacional
+              p.mb-0 Apoyo a los comportamientos saludables: hábitos alimentarios y saludables, actividad física y ocupacional.
             div.d-flex
               img.mt-2.me-2.d-flex.align-self-base.h-100(style="width: 15px" src='@/assets/curso/arrow.png', alt='Texto que describa la imagen')
-              p.mb-0 Abstención o reducción del tabaco y disminución en el consumo de alcohol. Programas especiales de salud y sociales dirigidos a grupos vulnerables
+              p.mb-0 Abstención o reducción del tabaco y disminución en el consumo de alcohol. Programas especiales de salud y sociales dirigidos a grupos vulnerables.
             div.d-flex
               img.mt-2.me-2.d-flex.align-self-base.h-100(style="width: 15px" src='@/assets/curso/arrow.png', alt='Texto que describa la imagen')
               p.mb-0 Atención prioritaria a los adultos mayores que padecen afecciones crónicas.
@@ -167,6 +168,27 @@
       .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-44.png', alt='Texto que describa la imagen')  
 
+    .bg-full-width.border-top-9-azul.mb-5
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/58663") Torres González, M. Á. & Perea Unceta, L. (2010). Vivir mejor la jubilación. Marcial Pons.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/podcast-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://open.spotify.com/episode/0w8FTS4PwkwHXBol7E1E9s") Salud mental en la adultez (2022). Salud mental en la adultez media y tardia [Podcast]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
+    .bg-full-width.border-top.actividad(style="background-color: #ebf1f5; border-top: 5px solid #f5c145 !important")
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+    
+
 </template>
 
 <script>
@@ -176,6 +198,167 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Desarrollo durante la Adultez',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Cuál de las siguientes estrategias se propone para promover la salud mental en adultos mayores?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Actividades sociales y programas de apoyo',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Aislamiento por falta de actividades',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Aumento en el consumo de medicamentos',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducción de la interacción familiar',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Cuál es una característica del desarrollo cognitivo en la adultez temprana?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reducción en la capacidad cognitiva',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Pérdida de habilidades lógicas',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Aumento en la complejidad de habilidades cognitivas',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Estancamiento en el desarrollo emocional',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Qué aspecto del desarrollo socioemocional es relevante en la adultez media?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Rechazo de las emociones', esCorrecta: false },
+            { id: 'b', texto: 'Aislamiento social', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Incapacidad para establecer relaciones',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reflexión personal sobre experiencias vividas',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Cuál de los siguientes aspectos se asocia a la adultez tardía?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Cambios hormonales y fisiológicos relacionados con la edad',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Aumento de la energía y vitalidad',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Estancamiento en el desarrollo físico',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Mejora en la memoria y la cognición',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Cómo se puede optimizar el desarrollo cognitivo y la salud mental durante la adultez?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Promoción de hábitos saludables que benefician la salud mental',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Aislamiento social para generar el menor impacto y efectos del relacionamiento',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Disminuir los períodos de reflexión porque impacta negativamente en la salud mental',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Disminuir la actividad física porque deterioran algunas estructuras motoras y lleva al deterioro emocional',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

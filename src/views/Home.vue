@@ -20,8 +20,8 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title.text-uppercase Biología del Desarrollo Humano
-              h1.home-title.mb-4.text-uppercase Desarrollo integral y contextos de aprendizaje en la adultez y la vejez
+              p.home-main-title.text-uppercase Unidad 3
+              h1.home-title.mb-4 Desarrollo integral y contextos de aprendizaje en la adultez y la vejez
               p.descripcion.mb-3 Desde los inicios de la humanidad, la comprensión del desarrollo humano ha sido un elemento fundamental para el bienestar y la organización de las sociedades. La adultez y la vejez constituyen el rango más amplio en la vida de una persona, comprendiendo cerca de 60 años de transformaciones físicas, biológicas, sociales y cognitivas. Estas etapas presentan desafíos y oportunidades únicas que exigen atención especializada para promover la calidad de vida y un envejecimiento exitoso.
               p.descripcion.mb-4.text-bold ¡Prepárate para enfrentar los retos de la vida adulta y de la vejez con conocimiento y empoderamiento!
 
@@ -59,7 +59,6 @@ export default {
       max-width: 1378px
   .home-title
     font-size: 26px !important
-    font-weight: normal
     @media (min-width: 992px)
       font-size: 38px !important
   .home-main-title
